@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+
+.pawan{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    /* position:relative;
+    top: 50px;
+    left: 50px; */
+
+    
+}
+
+.card{
+    height: 100px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius:5px ;
+    color: wheat;
+    font-size: 24px;
+    color: green;
+    /* position:relative;
+    top: 50px;
+    left: 50px; */
+}
+.add-card{
+    position: fixed;
+    bottom: 32px;
+    right: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 10px;
+    background-color: yellow;
+}
